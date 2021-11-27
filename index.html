@@ -1,30 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leon Template One</title>
     <!-- Main Template CSS file -->
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Render All elements Normally -->
-    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/normalize.css" />
     <!-- Font Awesome Library -->
-    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css" />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" 
-        rel="stylesheet"
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
     />
-</head>
-<body>
-    
-    <div class = "parent">
-        <div class="container">
-            Test Text
+  </head>
+  <body>
+    <!--Start Header-->
+    <header>
+      <div class="container">
+        <img class="logo" src="\images\logo.png" alt="logo image" />
+        <div class="links" onclick="showLinks()">
+          <span class="icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfilo">Portfilo</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
+      </div>
+    </header>
+    <!--End Header-->
+    <!--Start Landing-->
+    <div class="landing">
+      <div class="intro-text">
+        <h1>Hello There</h1>
+        <p>We are Leon - Super Creative & Minimal Agency Web Template</p>
+      </div>
     </div>
-</body>
+    <!--End Landing-->
+    <div class="featuers">
+      <div class="container">
+        <div class="feat">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Tell Us Your Idea</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          </p>
+        </div>
+        <div class="feat">
+          <i class="fas fa-flask"></i>
+          <h3>Tell Us Your Idea</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          </p>
+        </div>
+        <div class="feat">
+          <i class="fas fa-globe-asia"></i>
+          <h3>Tell Us Your Idea</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--End Features-->
+    <script src="/js/script.js"></script>
+  </body>
 </html>
