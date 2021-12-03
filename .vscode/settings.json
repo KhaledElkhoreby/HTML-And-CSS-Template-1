@@ -1,0 +1,4 @@
+{
+  "html-to-css-autocompletion.getSelectorsFromFileTypes": ["html", "php"],
+  "html-to-css-autocompletion.triggerCharacters": true
+}
