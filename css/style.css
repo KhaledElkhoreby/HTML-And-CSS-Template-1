@@ -429,11 +429,14 @@ header ul a:hover {
   font-weight: 800;
   font-size: clamp(1.25rem, 2.5rem, 6vw);
 }
-.contact .contact-content h2 {
+.contact .contact-content a.mail  {
+  text-decoration: none;
+  display: block;
   color: var(--main-color);
+  margin-top: 0;
   font-weight: 800;
   font-size: clamp(1.1rem, 2rem, 5vw);
-  padding: 0 1em;
+  padding:0.5em 1em;
 }
 .contact .contact-content .social {
   color: var(--h2-3-color);
@@ -451,7 +454,7 @@ header ul a:hover {
 @media (max-width: 768px) {
   .contact .contact-content .social {
     text-align: center;
-    margin-left: 1em;
+    margin-left: 0;
   }
   .contact .contact-content .social .social-links {
     margin-top: 2em;
