@@ -478,7 +478,7 @@ footer {
   margin-top: var(--section-padding);
   padding: 2em;
   color: white;
-  font-size: clamp(0.5rem, 0.7rem, 5vw);
+  font-size: clamp(0.8rem, 1vw, 1rem);
   font-weight: bold;
 }
 footer span {
